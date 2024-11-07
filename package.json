@@ -1,11 +1,18 @@
 {
   "type": "module",
   "dependencies": {
-    "@autonomys/auto-consensus": "^0.6.5",
-    "@autonomys/auto-utils": "^0.6.5",
+    "@autonomys/auto-consensus": "^1.0.1",
+    "@autonomys/auto-utils": "^1.0.1",
     "express": "^4.21.1"
   },
   "scripts": {
     "start": "node server.js"
-  }
+  },
+  "name": "space-race-plot-o-meter",
+  "version": "1.0.0",
+  "description": "Welcome to the Autonomys Network Space Race Plot-O-Meter project! This application displays real-time blockchain data in a visually engaging thermometer, ranging from 0 PiB to 20 PiB, using Auto SDK, JavaScript and pure CSS.",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

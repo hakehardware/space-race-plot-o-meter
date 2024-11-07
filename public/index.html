@@ -203,7 +203,7 @@
     function bytesToPiB(bytes) {
       const divisor = BigInt(1024 ** 5);
       const pib = Number(bytes) / Number(divisor);
-      return pib.toFixed(3); // Ensure 3 decimal places for precision
+      return pib.toFixed(6); // Ensure 3 decimal places for precision
     }
 
     // Function to update the thermometer visualization

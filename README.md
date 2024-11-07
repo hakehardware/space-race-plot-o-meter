@@ -54,7 +54,7 @@ Welcome to the Autonomys Network Space Race Plot-O-Meter project! This applicati
 5. **Install Required Packages**:
 
    ```bash
-   npm install express @autonomys/auto-consensus @autonomys/auto-utils
+   npm install express @autonomys/auto-consensus@latest @autonomys/auto-utils@latest
    ```
 
 6. **Update `package.json`**:
@@ -63,19 +63,22 @@ Welcome to the Autonomys Network Space Race Plot-O-Meter project! This applicati
 
    ```json
    {
-     "name": "autonomys-space-race-plotometer",
-     "version": "1.0.0",
-     "description": "Autonomys Network Space Race Plot-O-Meter",
-     "main": "server.js",
-     "type": "module",
-     "scripts": {
-       "start": "node server.js"
-     },
-     "dependencies": {
-       "express": "^4.17.1",
-       "@autonomys/auto-consensus": "^1.0.0",
-       "@autonomys/auto-utils": "^1.0.0"
-     }
+   "type": "module",
+   "dependencies": {
+      "@autonomys/auto-consensus": "^0.7.1",
+      "@autonomys/auto-utils": "^0.7.1",
+      "express": "^4.21.1"
+   },
+   "scripts": {
+      "start": "node server.js"
+   },
+   "name": "space-race-plot-o-meter",
+   "version": "1.0.0",
+   "description": "Welcome to the Autonomys Network Space Race Plot-O-Meter project! This application displays real-time blockchain data in a visually engaging thermometer, ranging from 0 PiB to 20 PiB, using Auto SDK, JavaScript and pure CSS.",
+   "main": "server.js",
+   "keywords": [],
+   "author": "",
+   "license": "ISC"
    }
    ```
 
